@@ -33,7 +33,7 @@ jQuery WeUI 是专为微信公众账号开发而设计的一个简洁而强大�
 
 # 下载
 
-推荐通过npm来安装 `npm install jquery-weui`
+推荐通过npm来安装 `npm install vj-weui`
 
 或者你可以 clone 这个仓库，自行编译，关于如何进行编译请参见下面的gulp章节。
 
@@ -50,34 +50,6 @@ jQuery WeUI 是专为微信公众账号开发而设计的一个简洁而强大�
 - `gulp` 进入开发模式，同时打开 `watch` 和 `server`任务
 - `gulp build` 编译压缩代码
 
-# 分支说明
-
-- `master` 主分支，正式发布的代码才会进入master分支
-- `build` 包含全部编译后代码的分支，和 `master` 分支同步，但是会包含 `dist` 目录
-- `dev` 开发分支
-- `gh-pages` 文档主分支
-- `gh-pages-dev` 文档的开发分支
-
-# 联系和讨论
-
-QQ 群：546452237(一群), 55572340(二群), 478537720(三群)
-
-群里更适合聊天，如果是发现bug或者有功能上的建议，推荐通过 `issue` 来讨论。
-
-# 捐助
-
-jQuery WeUI 是 MIT 协议的免费开源项目，不会收取任何费用。作者维护这个项目需要耗费不少精力，如果jQuery WeUI 帮到了你，你可以捐款让这个项目变得更好。当然，无论是否捐款，都感谢您对本项目的支持。
-
-**捐款是纯粹自愿的捐助行为，我将非常感谢您的捐助，但您本人并不会因为您的捐款而获得比其他不捐款用户更多的权利，望理解。**
-
-<img src="https://raw.githubusercontent.com/lihongxun945/jquery-weui/master/vcode/alipay.jpg" width="250" />
-<img src="https://raw.githubusercontent.com/lihongxun945/jquery-weui/master/vcode/wechat.jpg" width="250" />
-
-# 赞助商
-
-- [多会](https://www.duohui.co/)
-
-
 # LICENSE
 
 [MIT](https://opensource.org/licenses/MIT)，尽情享受开源代码。
@@ -89,16 +61,3 @@ jQuery WeUI 是 MIT 协议的免费开源项目，不会收取任何费用。作
 - [MSUI](http://m.sui.taobao.org/)
 - [Jekyll](http://jekyllrb.com/)
 - [gulp](http://gulpjs.com/)
-
-# 组件展示
-
-<img src="https://raw.githubusercontent.com/lihongxun945/jquery-weui/master/screenshot/grid.png" width="320" />
-<img src="https://raw.githubusercontent.com/lihongxun945/jquery-weui/master/screenshot/buttons.png" width="320" />
-<img src="https://raw.githubusercontent.com/lihongxun945/jquery-weui/master/screenshot/cell.png" width="320" />
-<img src="https://raw.githubusercontent.com/lihongxun945/jquery-weui/master/screenshot/form.png" width="320" />
-<img src="https://raw.githubusercontent.com/lihongxun945/jquery-weui/master/screenshot/dialog.png" width="320" />
-<img src="https://raw.githubusercontent.com/lihongxun945/jquery-weui/master/screenshot/select.png" width="320" />
-<img src="https://raw.githubusercontent.com/lihongxun945/jquery-weui/master/screenshot/calendar.png" width="320" />
-<img src="https://raw.githubusercontent.com/lihongxun945/jquery-weui/master/screenshot/address.png" width="320" />
-<img src="https://raw.githubusercontent.com/lihongxun945/jquery-weui/master/screenshot/actions.png" width="320" />
-<img src="https://raw.githubusercontent.com/lihongxun945/jquery-weui/master/screenshot/photos.png" width="320" />
