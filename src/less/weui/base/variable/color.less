@@ -15,26 +15,28 @@
 */
 
 // color
-@weuiColorPrimary: #1AAD19;
-@weuiColorWarn: #E64340;
+@weuiColorPrimary: @brand-primary;
+@weuiColorWarn: @brand-error;
 
 // link
-@weuiLinkColorDefault: #586C94;
+@weuiLinkColorDefault: @color-link;
 
 // background
-@weuiBgColorDefault: #EFEFF4;
-@weuiBgColorActive: #ECECEC;
+@weuiBgColorDefault: @fill-base;
+@weuiBgColorActive: @fill-tap;
+@weuiBgColorDisabled: @fill-disabled;
+@weuiBgColorIcon: @color-icon-base;
+@weuiBgColorBlack: @fill-black;
+@weuiBgColorBody: @fill-body;
 
-// line
-@weuiLineColorLight: #E5E5E5;
-@weuiLineColorDark: #BCBAB6;
+// line/border
+@weuiLineColorLight: @border-color-base;
+//@weuiLineColorDark: #BCBAB6;
 
 // text
-@weuiTextColorTitle: #000000;
-@weuiTextColorTips: #B2B2B2;
+@weuiTextColorTitle: @color-text-base;
+@weuiTextColorTitleInverse: @color-text-base-inverse;
+@weuiTextColorTips: @color-text-caption;
 @weuiTextColorWarn: @weuiColorWarn;
-@weuiTextColorGray: #999999;
-
-
-
-
+@weuiTextColorDisabled: @color-text-disabled;
+@weuiTextColorSecondary: @color-text-secondary;

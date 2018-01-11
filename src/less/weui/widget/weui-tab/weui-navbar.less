@@ -22,10 +22,10 @@
     z-index: 500;
     top: 0;
     width: 100%;
-    background-color: #FAFAFA;
+    background-color: @weuiBgColorDefault;
 
     &:after {
-        .setBottomLine(#CCCCCC);
+        .setBottomLine(@weuiLineColorLight);
     }
 
     & + .weui-tab__panel {
@@ -44,15 +44,15 @@
     .setTapColor();
 
     &:active {
-        background-color: #EDEDED;
+        background-color: @weuiBgColorActive;
     }
 
     &.weui-bar__item_on {
-        background-color: #EAEAEA;
+        background-color: @weuiBgColorActive;
     }
 
     &:after {
-        .setRightLine(#CCCCCC);
+        .setRightLine(@weuiLineColorLight);
     }
 
     &:last-child {

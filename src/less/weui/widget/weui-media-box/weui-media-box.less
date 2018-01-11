@@ -30,10 +30,10 @@
     }
 
     a&{
-        color:#000000;
+        color: @weuiTextColorTitle;
         .setTapColor();
         &:active{
-            background-color:#ECECEC;
+            background-color: @weuiBgColorActive;
         }
     }
 }
@@ -45,7 +45,7 @@
     word-break: break-all;
 }
 .weui-media-box__desc {
-    color: @weuiTextColorGray;
+    color: @weuiTextColorTips;
     font-size: 13px;
     line-height: 1.2;
     .ellipsisLn(2);
@@ -54,7 +54,7 @@
     margin-top: 15px;
     padding-bottom: 5px;
     font-size: 13px;
-    color: #CECECE;
+    color: @weuiTextColorTips;
     line-height: 1em;
     list-style: none;
     overflow: hidden;
@@ -65,7 +65,7 @@
 }
 .weui-media-box__info__meta_extra {
     padding-left: 1em;
-    border-left: 1px solid #CECECE;
+    border-left: 1px solid @weuiLineColorLight;
 }
 .weui-media-box_text {
     .weui-media-box__title {

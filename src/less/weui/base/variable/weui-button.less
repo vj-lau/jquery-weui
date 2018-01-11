@@ -14,40 +14,39 @@
 * limitations under the License.
 */
 
-@weuiBtnHeight:46px;
-@weuiBtnFontSize:18px;
-@weuiBtnFontColor:#FFFFFF;
-@weuiBtnActiveFontColor:rgba(255,255,255,.6);
-@weuiBtnDisabledFontColor:rgba(255,255,255,.6);
-@weuiBtnBorderRadius:5px;
-@weuiBtnDefaultGap:15px;
+@weuiBtnHeight: 46px;
+@weuiBtnFontSize: 18px;
+@weuiBtnFontColor: @color-text-base-inverse;
+@weuiBtnActiveFontColor: fade(@color-text-base-inverse, 60%);
+@weuiBtnDisabledFontColor: fade(@color-text-base-inverse, 60%);
+@weuiBtnBorderRadius: 5px;
+@weuiBtnDefaultGap: 15px;
 
-@weuiBtnMiniFontSize:13px;
-@weuiBtnMiniHeight:2.3;
+@weuiBtnMiniFontSize: 13px;
+@weuiBtnMiniHeight: 2.3;
 
-@weuiBtnDefaultFontColor:#000000;
-@weuiBtnDefaultActiveFontColor:rgba(0,0,0,.6);
-@weuiBtnDefaultDisabledFontColor:rgba(0,0,0,.3);
+@weuiBtnDefaultFontColor: @color-text-base;
+@weuiBtnDefaultActiveFontColor: @color-text-base;
+@weuiBtnDefaultDisabledFontColor: fade(@color-text-base, 30%);
 
-@weuiBtnDefaultBg:#F8F8F8;
-@weuiBtnDefaultActiveBg:#DEDEDE;
-@weuiBtnDefaultDisabledBg:#F7F7F7;
+@weuiBtnDefaultBg: @fill-base;
+@weuiBtnDefaultActiveBg: @fill-tap;
+@weuiBtnDefaultDisabledBg: fade(@fill-base, 60%);
 
-@weuiBtnPrimaryBg:#1AAD19;
-@weuiBtnPrimaryActiveBg:#179B16;
-@weuiBtnPrimaryDisabledBg:#9ED99D;
+@weuiBtnPrimaryBg: @brand-primary;
+@weuiBtnPrimaryActiveBg: fade(@brand-primary, 60%);
+@weuiBtnPrimaryDisabledBg: fade(@brand-primary, 60%);
 
-@weuiBtnWarnBg:#E64340;
-@weuiBtnWarnActiveBg:#CE3C39;
-@weuiBtnwarnDisabledBg:#EC8B89;
+@weuiBtnWarnBg: @brand-error;
+@weuiBtnWarnActiveBg: @brand-error-tap;
+@weuiBtnwarnDisabledBg: fade(@brand-error, 60%);
 
+@weuiBtnPlainPrimaryColor: @brand-primary;
+@weuiBtnPlainPrimaryBorderColor: @brand-primary;
+@weuiBtnPlainPrimaryActiveColor: fade(@brand-primary, 60%);
+@weuiBtnPlainPrimaryActiveBorderColor: fade(@brand-primary, 60%);
 
-@weuiBtnPlainPrimaryColor:rgba(26,173,25,1);
-@weuiBtnPlainPrimaryBorderColor:rgba(26,173,25,1);
-@weuiBtnPlainPrimaryActiveColor:rgba(26,173,25,.6);
-@weuiBtnPlainPrimaryActiveBorderColor:rgba(26,173,25,.6);
-
-@weuiBtnPlainDefaultColor:rgba(53,53,53,1);
-@weuiBtnPlainDefaultBorderColor:rgba(53,53,53,1);
-@weuiBtnPlainDefaultActiveColor:rgba(53,53,53,.6);
-@weuiBtnPlainDefaultActiveBorderColor:rgba(53,53,53,.6);
+@weuiBtnPlainDefaultColor: @color-text-base;
+@weuiBtnPlainDefaultBorderColor: @color-text-base;
+@weuiBtnPlainDefaultActiveColor: fade(@color-text-base, 60%);
+@weuiBtnPlainDefaultActiveBorderColor: fade(@color-text-base, 60%);

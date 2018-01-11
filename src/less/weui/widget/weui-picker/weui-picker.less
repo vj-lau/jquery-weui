@@ -32,7 +32,7 @@
 .weui-picker__hd {
     display: flex;
     padding: 9px 15px;
-    background-color: #fff;
+    background-color: @weuiBgColorDefault;
     position: relative;
     text-align: center;
     font-size: 17px;
@@ -48,7 +48,7 @@
 
     &:first-child {
         text-align: left;
-        color: #888;
+        color: @weuiTextColorTips;
     }
     &:last-child {
         text-align: right;
@@ -58,7 +58,7 @@
 .weui-picker__bd {
     display: flex;
     position: relative;
-    background-color: #fff;
+    background-color: @weuiBgColorDefault;
     height: 238px;
     overflow: hidden;
 }
@@ -112,12 +112,12 @@
     height: @pickerItemHeight;
     line-height: @pickerItemHeight;
     text-align: center;
-    color: #000;
+    color: @color-text-base;
     text-overflow: ellipsis;
     white-space: nowrap;
     overflow: hidden;
 }
 
 .weui-picker__item_disabled {
-    color: @weuiTextColorGray;
+    color: @weuiTextColorTips;
 }

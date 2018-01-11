@@ -9,7 +9,7 @@
   z-index: 2000;
 
   .weui-dialog__btn.default {
-    color: @color-text-secondary;
+    color: @weuiTextColorSecondary;
   }
 
   .weui-dialog__btn + .weui-dialog__btn {
@@ -21,8 +21,8 @@
       top: 0;
       width: 1px;
       height: 100%;
-      border-left: 1px solid #D5D5D6;
-      color: #D5D5D6;
+      border-left: 1px solid @weuiLineColorLight;
+      //color: #D5D5D6;
       transform-origin: 0 0;
       transform: scaleX(0.5);
     }
@@ -38,14 +38,14 @@
 }
 
 .weui-toast_forbidden {
-  color: #F76260;
+  color: @weuiColorWarn;
 }
 .weui-toast_cancel .weui-icon-toast:before {
   content: "\EA0D";
 }
 .weui-toast_forbidden .weui-icon-toast:before {
   content: "\EA0B";
-  color: #F76260;
+  color: @weuiColorWarn;
 }
 .weui-toast_text {
   min-height: 1em;
@@ -81,7 +81,7 @@
 
 .weui-prompt-input {
   padding: 4px 6px;
-  border: 1px solid #ccc;
+  border: 1px solid @weuiLineColorLight;
   box-sizing: border-box;
   height: 2em;
   width: 80%;

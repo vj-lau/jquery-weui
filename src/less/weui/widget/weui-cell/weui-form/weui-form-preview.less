@@ -18,7 +18,7 @@
 
 .weui-form-preview{
     position: relative;
-    background-color: #FFFFFF;
+    background-color: @weuiBgColorDefault;
     &:before{
         .setTopLine(@weuiCellBorderColor);
     }
@@ -44,7 +44,7 @@
     padding: @weuiCellGapV @weuiCellGapH;
     font-size: .9em;
     text-align: right;
-    color: @weuiTextColorGray;
+    color: @weuiTextColorTips;
     line-height: 2;
 }
 .weui-form-preview__ft{
@@ -62,7 +62,7 @@
     float: left;
     margin-right: 1em;
     min-width: 4em;
-    color: @weuiTextColorGray;
+    color: @weuiTextColorTips;
     text-align: justify;
     text-align-last: justify;
 }
@@ -99,8 +99,8 @@
     }
 }
 .weui-form-preview__btn_default {
-    color: @weuiTextColorGray;
+    color: @weuiTextColorTips;
 }
 .weui-form-preview__btn_primary {
-    color: #0BB20C;
+    color: @weuiColorPrimary;
 }
