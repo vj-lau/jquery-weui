@@ -1,0 +1,99 @@
+/**
+ * Created by VJLau.
+ * Date: 2018/1/17
+ */
+@import "../../base/fn";
+.weui-detail-box {
+  padding: 15px;
+  position: relative;
+  &:before {
+    .setTopLine(@weuiLineColorLight);
+    left: 15px;
+  }
+  &:first-child {
+    &:before {
+      display: none
+    }
+  }
+
+  a& {
+    color: @weuiTextColorTitle;
+    .setTapColor();
+    &:active {
+      background-color: @weuiBgColorActive;
+    }
+  }
+}
+.weui-detail-box__title {
+  font-size: 16px;
+}
+.weui-detail-box__desc {
+  color: @color-text-caption;
+  font-size: 14px;
+  line-height: 20px;
+}
+.weui-detail-box__price {
+  font-size: 12px;
+  color: @brand-error;
+
+  em {
+    font-size: 16px;
+    padding: 0 2px;
+  }
+}
+.weui-detail-box__tag {
+  width: auto;
+  height: 18px;
+  color: @brand-primary;
+  font-size: 16px;
+  font-weight: bolder;
+  line-height: 18px;
+  position: relative;
+  padding-left: 8px;
+  margin-bottom: 8px;
+
+  &:before {
+    content: " ";
+    background: @brand-primary;
+    position: absolute;
+    top: 1px;
+    right: 0;
+    left: 0;
+    bottom: 1px;
+    width: 3px;
+  }
+}
+.weui-detail-box__li {
+  margin: 8px 0;
+
+  .weui-detail-box__li__title {
+    color: @brand-primary;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16px;
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 4px;
+    &:before {
+      content: " ";
+      background: @brand-primary;
+      position: absolute;
+      top: 5px;
+      left: 4px;
+      width: 6px;
+      height: 6px;
+      border-radius: 3px;
+    }
+  }
+  .weui-detail-box__li__content {
+    color: @color-text-caption;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    padding-left: 14px;
+  }
+}
+.weui-detail-box_appmsg {
+  display: flex;
+  align-items: center;
+}
