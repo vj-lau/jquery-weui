@@ -1,0 +1,82 @@
+/**
+ * 个人中心
+ * Created by VJLau.
+ * Date: 2018/1/17
+ */
+@import "../../base/fn";
+.weui-my-center {
+  width: 100%;
+  overflow: hidden;
+  background-color: @brand-primary;
+  background-size: cover;
+}
+.weui-my-center__left {
+  text-align: left;
+
+  img {
+    border-radius: 50%;
+  }
+}
+.weui-my-center__center {
+  text-align: center;
+  padding: 20px 0 10px 0;
+
+  img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+  }
+}
+.weui-my-center__user__name {
+  color: #fff;
+  font-size: 1em;
+  font-weight: bold;
+}
+.weui-my-center__user__status {
+  color: #ffbe00;
+  font-size: 0.875em;
+}
+.weui-my-center__user__flow {
+  font-size: 0.75em;
+  color: #fafafa;
+}
+.weui-my-center__menu {
+  height: 2.875em;
+  background: rgba(0, 0, 0, .3);
+}
+.weui-my-center__menu__item {
+  padding: 5px 0;
+  text-align: center;
+  color: #fff;
+  line-height: 1.125em;
+  position: relative;
+  em {
+    font-size: 0.875em;
+  }
+
+  p {
+    font-size: 0.75em;
+  }
+}
+.weui-flex__item {
+  .weui-my-center__menu__item {
+    &:after {
+      content: "";
+      height: 24px;
+      width: 1px;
+      background: rgba(255, 255, 255, .5);
+      position: absolute;
+      left: 0;
+      top: 10px;
+      display: block;
+    }
+  }
+
+  &:first-child {
+    .weui-my-center__menu__item {
+      &:after {
+        display: none;
+      }
+    }
+  }
+}
